@@ -1,0 +1,55 @@
+// breakpoints
+$xsW: 0px;
+$smW: 600px;
+$mdW: 900px;
+$lgW: 1200px;
+$xlW: 1536px;
+
+@mixin xs {
+  @media (min-width: $xsW) and (max-width: $smW) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: $xsW) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: $smW) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: $lgW) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: $xlW) {
+    @content;
+  }
+}
+
+@mixin transition {
+  transition: all;
+}
+
+.overall-container-screen {
+  width: 100%;
+  height: max(100vh, 400px);
+  position: relative;
+}
+
+.empty-message {
+  height: 100%;
+  width: 100%;
+  color: #00000075;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

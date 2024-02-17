@@ -1,0 +1,70 @@
+input {
+  background-color: #ecececdd;
+  border: none;
+  font-size: 14px;
+  padding: 10px 12px;
+  margin: 8px 0;
+  width: 90%;
+  color: #333;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.button {
+  text-decoration: none;
+  margin-right: 15px;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 131, 235, 1) 51%
+  );
+  background-size: 300%;
+  cursor: pointer;
+  outline: none;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #c3c3c3dd;
+}
+.send-wrapper {
+  position: absolute;
+  top: -25px;
+  right: 10px;
+}
+.footer-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+/* Add this CSS to your stylesheets or components */
+
+// .recording-animation {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 18px;
+//   font-weight: bold;
+//   color: red; /* You can customize the color */
+// }
+
+// .recording-animation button {
+//   margin-left: 10px;
+//   padding: 5px 10px;
+//   background-color: red; /* You can customize the button color */
+//   color: white;
+//   border: none;
+//   cursor: pointer;
+//   font-size: 16px;
+//   font-weight: bold;
+// }
